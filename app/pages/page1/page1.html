@@ -1,0 +1,32 @@
+<ion-navbar *navbar>
+  <ion-title>Tool Bar</ion-title>
+</ion-navbar>
+
+<ion-content padding class="page1">
+  <h2>Welcome to Ionic's ToolBar!</h2>
+  <ion-toolbar>
+    <ion-buttons start>
+      <ion-icon name="home"></ion-icon>
+    </ion-buttons>
+    <ion-buttons end>
+      <button (click)="toggleItems()">
+        toggle
+      </button>
+    </ion-buttons>
+    <ion-title>My Toolbar Title</ion-title>
+  </ion-toolbar>
+
+<ion-toolbar>
+  <ion-title>I'm a subheader</ion-title>
+</ion-toolbar>
+
+ <ion-content></ion-content>
+
+<ion-toolbar position="bottom">
+  <ion-title>I'm a subfooter</ion-title>
+</ion-toolbar>
+
+<ion-toolbar position="bottom">
+  <ion-title>I'm a footer</ion-title>
+</ion-toolbar>
+</ion-content>
