@@ -16,4 +16,5 @@ Start ionic2
 ## Build for android
 
   ionic plateform add android
+  
   ionic build android
